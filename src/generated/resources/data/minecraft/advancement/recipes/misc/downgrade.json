@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fast_comp": {
+      "conditions": {
+        "items": [
+          {
+            "items": "avaritianeo_tweaks:fast_neutronium_compressor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:downgrade"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_fast_comp"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:downgrade"
+    ]
+  }
+}

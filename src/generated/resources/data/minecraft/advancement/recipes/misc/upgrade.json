@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_slow_comp": {
+      "conditions": {
+        "items": [
+          {
+            "items": "avaritia:compressor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:upgrade"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_slow_comp"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:upgrade"
+    ]
+  }
+}

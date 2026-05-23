@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "avaritianeo_tweaks:fast_neutronium_compressor"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "avaritia:compressor"
+  }
+}
