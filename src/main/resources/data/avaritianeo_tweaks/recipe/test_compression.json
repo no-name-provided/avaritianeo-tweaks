@@ -1,0 +1,12 @@
+{
+  "type": "avaritia:compressor",
+  "result": {
+    "id": "avaritia:copper_singularity"
+  },
+  "cost": 65,
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    }
+  ]
+}
