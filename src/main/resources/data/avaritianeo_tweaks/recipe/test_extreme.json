@@ -1,0 +1,11 @@
+{
+  "type": "avaritia:extreme_shapeless",
+  "result": {
+    "id": "avaritia:infinity_catalyst"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    }
+  ]
+}
